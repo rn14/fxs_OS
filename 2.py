@@ -31,7 +31,7 @@ def sstf():
 def scan():
     l1 = l[:]
     result = []
-    for i in l1:
+    for i in l:
         if i > 90:
             result.append(i)
             l1.remove(i)
